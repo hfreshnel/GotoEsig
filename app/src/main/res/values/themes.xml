@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GotoEsig" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundColor">@color/background</item>
+    </style>
+
+    <style name="Theme.GotoEsig" parent="Base.Theme.GotoEsig" />
+</resources>
