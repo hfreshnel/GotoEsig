@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/img_search"
+        android:title="Rechercher" />
+    <item
+        android:id="@+id/nav_my_trips"
+        android:icon="@drawable/img_travel_list"
+        android:title="Mes trajets" />
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/img_add_travel"
+        android:title="Ajouter" />
+    <item
+        android:id="@+id/nav_statistics"
+        android:icon="@drawable/img_stats"
+        android:title="Statistiques" />
+    <item
+        android:id="@+id/nav_quit"
+        android:icon="@drawable/img_quit"
+        android:title="Quitter" />
+</menu>
