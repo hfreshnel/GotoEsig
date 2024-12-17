@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mode de transport -->
+    <TextView
+        android:id="@+id/label_transport_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode de transport"
+        android:layout_marginBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/transport_mode_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Adresse de départ -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse de départ">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_departure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Bouton pour passer au fragment suivant -->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suivant"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+

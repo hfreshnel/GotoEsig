@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Mode de transport -->
+        <TextView
+            android:id="@+id/label_transport_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mode de transport"
+            android:layout_marginBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/transport_mode_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/input_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date (AAAA-MM-JJ)"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Heure -->
+        <EditText
+            android:id="@+id/input_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heure (HH:MM)"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Places disponibles -->
+        <EditText
+            android:id="@+id/input_seats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Places disponibles"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Prix -->
+        <EditText
+            android:id="@+id/input_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prix (facultatif)"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Boutons -->
+        <Button
+            android:id="@+id/btn_save_trip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suivant"/>
+    </LinearLayout>
+</ScrollView>

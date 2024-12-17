@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Photo de profil -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_profil"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/circle_background"/>
+
+        <!-- Nom -->
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom complet non renseigné"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Prénom -->
+        <TextView
+            android:id="@+id/label_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/profile_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom non renseigné"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Téléphone -->
+        <TextView
+            android:id="@+id/label_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/profile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone non renseigné"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Ville -->
+        <TextView
+            android:id="@+id/label_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ville"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/profile_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ville non renseignée"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Boutons d'action -->
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier le profil"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Se déconnecter"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_delete_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supprimer le compte"
+            android:backgroundTint="@color/red"/>
+    </LinearLayout>
+</ScrollView>
