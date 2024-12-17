@@ -11,14 +11,14 @@ import retrofit2.http.Url;
 public interface OpenRouteServiceApi {
 
     @Headers({
-            "Authorization: 5b3ce3597851110001cf62487d32967c99934fe1a8665604aca796b2",
+            "Authorization: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             "Content-Type: application/json"
     })
     @POST
     Call<JsonObject> getRoute(@Url String url, @Body JsonObject body);
 
     @Headers({
-            "Authorization: 5b3ce3597851110001cf62487d32967c99934fe1a8665604aca796b2",
+            "Authorization: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             "Content-Type: application/json"
     })
     @POST
